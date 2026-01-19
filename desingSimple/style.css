@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f6f5f2;
+  color: #222;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 140px 20px;
+}
+
+.hero i {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.hero i img {
+  width: 200px;
+}
+
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 46px;
+}
+
+.hero span {
+  color: #c08a53;
+}
+
+.hero p {
+  margin: 15px 0 30px;
+  color: #666;
+}
+
+.hero button {
+  padding: 12px 30px;
+  border: none;
+  background: #c08a53;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* SECTION */
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.section h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+/* MENU */
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.tab {
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: 1px solid #c08a53;
+  background: transparent;
+  color: #c08a53;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #c08a53;
+  color: #fff;
+}
+
+.menu {
+  max-width: 450px;
+  margin: auto;
+}
+
+.menu div {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-content {
+  display: none;
+}
+
+.menu-content.active {
+  display: block;
+}
+
+/* LIGHT */
+.light {
+  background: #fff;
+}
+
+.section p {
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #888;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .section {
+    padding: 70px 15px;
+  }
+}
