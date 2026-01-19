@@ -25,6 +25,7 @@ Fast loading and easy navigation
 <img width="1353" height="610" alt="Capture d’écran 2026-01-19 130017" src="https://github.com/user-attachments/assets/3930acdc-6299-46e1-8b73-e32df9e91645" />
 
 
+https://github.com/user-attachments/assets/6bba69b5-956f-4ea9-b434-a2f1b60f255a
 
 
 
